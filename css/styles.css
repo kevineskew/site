@@ -264,7 +264,7 @@ h4{
     text-decoration:none;
     list-style-type:none;
     margin:auto;
-    margin-top: 70px;
+    margin-top: 30px;
     font-family: 'Slabo 13px', serif;
     font-size: 1.5em;
     width: 90%;
@@ -390,7 +390,7 @@ s    top: -50px;
     display: block;
     position: absolute;
     padding-left: 25vw;
-    padding-top: 25vh;
+    padding-top: 15vh;
     width: 100%;
 /*    max-width: 960px;*/
     height: 100%;
@@ -617,13 +617,14 @@ s    top: -50px;
     border-right-color: rebeccapurple;
     width: 100%;
     height: 100%;
-    animation: hueShift 10s infinite;
+    background-color: black;
+/*    animation: hueShift 10s infinite;*/
 }
 
 
-.watch_mob a img{
+.watch_mob img{
     position: fixed;
-    width: 70%;
+    width: 80%;
     top: 50%; 
     left: 50%;
     transform: translate(-50%, -50%);
@@ -708,7 +709,7 @@ s    top: -50px;
     justify-content: center;
     opacity: 1;
     font-family: Ultra, sans-serif;
-    font-size: 2.5em;
+    font-size: 3em;
     line-height: 25vh;
     color: white;
 }
