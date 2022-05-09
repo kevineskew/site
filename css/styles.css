@@ -480,11 +480,11 @@ s    top: -50px;
     transform: translateX(-50%);
     width: 70%;
     max-width: 700px;
-    height: 100px;
+    height: 130px;
     bottom: 0;
     opacity:0;
     font-family: 'Ultra', sans-serif;
-    font-size: 2em;
+    font-size: 1.6em;
     color: #ececec;
     cursor: pointer;
     animation: fadein 5s ease-in 8s forwards;    
@@ -501,19 +501,19 @@ s    top: -50px;
 }
 
 .text1:hover{
-    color: blue;
+    color: #f7941d;
 }
 .text2:hover{
-    color: orange;
+    color: #8dc73f;
 }
 .text3:hover{
-    color: red;
+    color: #00aeef;
 }
 .text4:hover{
-    color: #FB6FFE;
+    color: #0054a6;
 }
 .text5:hover{
-    color: #7B00FF;
+    color: #662d91;
 }
 
 
