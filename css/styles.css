@@ -468,7 +468,10 @@ s    top: -50px;
 
 
 
-
+@font-face{
+    font-family: 'Alagard', sans-serif; 
+    src: url(../images/alagard.ttf);
+}
 
 
 /*TEXT BLOCK BOTTOM*/
@@ -483,11 +486,11 @@ s    top: -50px;
     height: 130px;
     bottom: 0;
     opacity:0;
-    font-family: 'Ultra', sans-serif;
+    font-family: 'Alagard', sans-serif; 
     font-size: 1.6em;
     color: #ececec;
     cursor: pointer;
-    animation: fadein 5s ease-in 8s forwards;    
+    animation: fadein 3s ease-in 4s forwards;    
 }
 @media (max-width:1000px){
     .textblockbottom{
@@ -708,9 +711,9 @@ s    top: -50px;
     align-content: center;
     justify-content: center;
     opacity: 1;
-    font-family: Ultra, sans-serif;
+    font-family: 'Alagard', sans-serif;
     font-size: 3em;
-    line-height: 25vh;
+    line-height: 20vh;
     color: white;
 }
 
@@ -722,7 +725,7 @@ s    top: -50px;
     display: flex;
     align-content: center;
     justify-content: center;
-    height: 25vh;
+    height: 20vh;
     
 }
 .menu_wrap .menu > div > ul > li > a {
