@@ -57,7 +57,7 @@ h2{
     top: 10%;
     width: 150px;
     height: 150px;
-    background-color: yellow;
+    background-color: lightgoldenrodyellow;
     border-radius: 50%;
     z-index: 6;
     animation: spin 2.5s linear infinite;   
@@ -76,7 +76,7 @@ h2{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-image: linear-gradient(to right, blue , orange, red);
+    background-image: linear-gradient(to right, lightblue , orange, #EB2CD1);
     animation: spinReverse 4s linear infinite;   
     z-index: 5;
 }
