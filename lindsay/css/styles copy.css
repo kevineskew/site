@@ -780,3 +780,61 @@ s    top: -50px;
         justify-content: center;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+.videoWrapper{
+    overflow:visible;
+}
+.videoWrapper:before{
+    content: ' ';
+    display: block;
+    position: fixed;  
+    width: 120vw;
+    height: 120vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../images/Website%20background.jpg);
+    background-size: cover;
+/*
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+*/
+    opacity: 0.1;
+    z-index: 0;
+}
+.videoGridContainer{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 80vw;
+    height: auto;
+    top: 15em;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 3px blue solid;
+    
+    
+    text-align: center;
+    line-height: 500px;
+}
+.videoGridItem{
+    position: relative;
+    width: 50%;
+    height: 500px;
+    background-color: rgba(0,44,255,.5);
+    border: 3px blue solid;
+}
+
