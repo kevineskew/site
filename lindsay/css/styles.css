@@ -485,6 +485,7 @@ margin: 20px;
         height: 10vh;
         background-image: url(../images/Website_background2.jpg);
         background-size:cover;
+        overflow: hidden;
         
     }
     .name-top{
@@ -542,7 +543,7 @@ margin: 20px;
 
     
     background-color: #2E62D2;
-    background-color: yellow;
+    background-color: pink;
 }
 .ml2{
     background-color: #6BF45C;
