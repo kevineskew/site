@@ -486,6 +486,7 @@ margin: 20px;
         
     }
     .name-top{
+        overflow: none;
         position: absolute;
         top: 0;
         left: 0;
@@ -537,7 +538,8 @@ margin: 20px;
 
 .ml1{
 
-    background-color: #FC5109;
+    
+    background-color: #2E62D2;
 }
 .ml2{
     background-color: #6BF45C;
@@ -546,7 +548,7 @@ margin: 20px;
     background-color: #51FAF7;
 }
 .ml4{
-    background-color: #2E62D2;
+    background-color: #FC5109;
 }
 .ml5{
     background-color: #EDACE3;
