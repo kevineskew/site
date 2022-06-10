@@ -518,8 +518,17 @@ margin: 20px;
     0%       {left: 100%;}
     100%     {left: -100%;}
 }    
-    .name-top span{
-        animation: wiggle infinite linear 5.5s;
+@keyframes bgcolorfade2 {
+    0%     {background-color:#2E62D2;}
+    16.66%  {background-color:#6BF45C;}
+    33.32%  {background-color:#FC5109;}
+    49.98%  {background-color:#EDACE3;}
+    66.64%  {background-color:#EB9F08;}
+    83.3%  {background-color:#51FAF7;}
+    100.0%  {background-color:#2E62D2;}
+}    
+    .name-top p{
+        animation: wiggle infinite linear 10s;
     }
     
     
@@ -553,21 +562,32 @@ margin: 20px;
 
     
     background-color: #2E62D2;
+    animation: bgcolorfade2 5s ease-in-out infinite;
 }
 .ml2{
     background-color: #6BF45C;
+    animation: bgcolorfade2 5s ease-in-out infinite;
+    animation-delay: -1s;
 }
 .ml3{
     background-color: #51FAF7;
+    animation: bgcolorfade2 5s ease-in-out infinite;
+    animation-delay: -2s;
 }
 .ml4{
     background-color: #FC5109;
+    animation: bgcolorfade2 5s ease-in-out infinite;
+    animation-delay: -3s;
 }
 .ml5{
     background-color: #EDACE3;
+    animation: bgcolorfade2 5s ease-in-out infinite;
+    animation-delay: -4s;
 }
 .ml6{
     background-color: #EB9F08;
+    animation: bgcolorfade2 5s ease-in-out infinite;
+    animation-delay: -5s;
 }
 
 
