@@ -479,17 +479,17 @@ margin: 20px;
 
 @media only screen and (max-width: 600px) {
 
-    body{overflow: hidden;}
+/*    body{overflow: hidden;}*/
     
     header{
         height: 10vh;
         background-image: url(../images/Website_background2.jpg);
         background-size:cover;
-        overflow: hidden;
+        overflow-x: hidden;
         
     }
     .name-top{
-        overflow: hidden;
+        overflow-x: hidden;
         position: absolute;
         top: 0;
         left: 0;
@@ -543,7 +543,7 @@ margin: 20px;
 
     
     background-color: #2E62D2;
-    background-color: pink;
+    background-color: blueviolet;
 }
 .ml2{
     background-color: #6BF45C;
