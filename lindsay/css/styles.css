@@ -16,6 +16,11 @@ h2{
     font: 5em black ;
     font-family: 'DigitalDisco', cursive;
 }
+.mobile-wrapper{
+
+    overflow-x:hidden;
+    overflow-y: hidden;
+}
 .wrapper{
 }
 
@@ -485,6 +490,10 @@ margin: 20px;
         height: 10vh;
         background-image: url(../images/Website_background2.jpg);
         background-size:cover;
+
+
+        
+        background-color: black;
         overflow-x: hidden;
         
     }
@@ -543,7 +552,7 @@ margin: 20px;
 
     
     background-color: #2E62D2;
-    background-color: blueviolet;
+    background-color: olivedrab;
 }
 .ml2{
     background-color: #6BF45C;
