@@ -490,15 +490,11 @@ margin: 20px;
         height: 10vh;
         background-image: url(../images/Website_background2.jpg);
         background-size:cover;
-
-
-        
         background-color: black;
-        overflow-x: hidden;
         
     }
     .name-top{
-        overflow-x: hidden;
+        overflow: hidden;
         position: absolute;
         top: 0;
         left: 0;
@@ -509,9 +505,11 @@ margin: 20px;
         font-size: 4em;
         color: white;
         text-align: center;
-        text-decoration: underline white;
-        animation: rightleft infinite linear 5.5s;
-/*        text-shadow: 2px 2px #2349C7;
+        
+        
+        border-bottom: white 5px solid;
+/*      text-decoration: underline white;
+        text-shadow: 2px 2px #2349C7;
         -webkit-text-stroke-width: 2px;
         -webkit-text-stroke-color: black;
 */      
@@ -520,6 +518,9 @@ margin: 20px;
     0%       {left: 100%;}
     100%     {left: -100%;}
 }    
+    .name-top span{
+        animation: wiggle infinite linear 5.5s;
+    }
     
     
     .mobile-links{
@@ -552,7 +553,6 @@ margin: 20px;
 
     
     background-color: #2E62D2;
-    background-color: olivedrab;
 }
 .ml2{
     background-color: #6BF45C;
