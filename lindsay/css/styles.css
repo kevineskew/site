@@ -562,31 +562,31 @@ margin: 20px;
 
     
     background-color: #2E62D2;
-    animation: bgcolorfade2 5s ease-in-out infinite;
+    animation: bgcolorfade2 5s steps(3, end) infinite;
 }
 .ml2{
     background-color: #6BF45C;
-    animation: bgcolorfade2 5s ease-in-out infinite;
+    animation: bgcolorfade2 5s steps(3, end) infinite;
     animation-delay: -1s;
 }
 .ml3{
     background-color: #51FAF7;
-    animation: bgcolorfade2 5s ease-in-out infinite;
+    animation: bgcolorfade2 5s steps(3, end) infinite;
     animation-delay: -2s;
 }
 .ml4{
     background-color: #FC5109;
-    animation: bgcolorfade2 5s ease-in-out infinite;
+    animation: bgcolorfade2 5s steps(3, end) infinite;
     animation-delay: -3s;
 }
 .ml5{
     background-color: #EDACE3;
-    animation: bgcolorfade2 5s ease-in-out infinite;
+    animation: bgcolorfade2 5s steps(3, end) infinite;
     animation-delay: -4s;
 }
 .ml6{
     background-color: #EB9F08;
-    animation: bgcolorfade2 5s ease-in-out infinite;
+    animation: bgcolorfade2 5s steps(3, end) infinite;
     animation-delay: -5s;
 }
 
