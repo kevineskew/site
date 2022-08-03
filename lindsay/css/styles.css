@@ -457,22 +457,33 @@ nav a:hover{
     justify-content: space-around;
     width: 100%;
     height: 100%;  
-padding-bottom: 100px;
-    
-    
+    padding-bottom: 100px;
+
+
 }
-.carousel-slide img:hover{
-    transform: scale(1.03);
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);;
+.carousel-slide img{
+    max-width: 36%;
+    margin: 20px;
+    margin-bottom: 80px;
+    max-height: 20%;
+    object-fit: contain;
+
     transition: 1s ease;
 }
 
-.carousel-slide img{
-/*    padding: 20px;*/
-margin: 20px;
-    transition: 1s ease;
-    
+.carousel-slide img::after{
+    border: red 10px solid;
 }
+
+
+
+.carousel-slide img:hover{
+    transform: scale(1.03);
+/*    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);;*/
+    
+    transition: 1s ease;
+}
+
 
 @media only screen and (min-width: 600px) {
     .mobile-links{
